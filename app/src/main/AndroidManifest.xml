@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
+        android:name=".StatusLogin"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -11,6 +15,27 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppBanVeMayBay"
         tools:targetApi="31">
+        <activity
+            android:name=".AboutCustomer"
+            android:exported="false" />
+        <activity
+            android:name=".VeMayBayActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChiTietVeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ForgotPassword"
+            android:exported="false" />
+        <activity
+            android:name=".AdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DangKyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DangNhapActivity"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

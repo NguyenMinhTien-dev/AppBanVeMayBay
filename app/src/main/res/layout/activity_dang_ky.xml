@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundtrangchu"
+    android:gravity="center|top"
+    tools:context=".DangKyActivity">
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/logomaybay"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-2dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView2"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="50dp"
+        android:text="Start your account here"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/registerUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView3"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:drawableStart="@drawable/baseline_person_outline_24"
+        android:ems="10"
+        android:hint="Username"
+        android:background="@color/white"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/registerPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/registerUser"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:autoText="false"
+        android:drawableStart="@drawable/baseline_lock_24"
+        android:ems="10"
+        android:hint="Password"
+        android:background="@color/white"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/registerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/registerPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:autoText="false"
+        android:drawableStart="@drawable/baseline_drive_file_rename_outline_24"
+        android:ems="10"
+        android:background="@color/white"
+        android:hint="Full name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/registerPhonenumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/registerName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:autoText="false"
+        android:drawableStart="@drawable/baseline_phone_iphone_24"
+        android:ems="10"
+        android:background="@color/white"
+        android:hint="Phone Number"
+        android:inputType="number|phone" />
+
+    <EditText
+        android:id="@+id/registerGmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/registerPhonenumber"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:drawableStart="@drawable/baseline_alternate_email_24"
+        android:ems="10"
+        android:background="@color/white"
+        android:hint="Gmail"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/registerAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/registerGmail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:autoText="false"
+        android:drawableStart="@drawable/baseline_place_24"
+        android:ems="10"
+        android:background="@color/white"
+        android:hint="Address"
+        android:inputType="textPersonName" />
+
+    <CheckBox
+        android:id="@+id/RegisterAcceptTerm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/registerAddress"
+        android:layout_centerInParent="true"
+        android:text="I have already accepted the Terms and Conditions once." />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/RegisterAcceptTerm"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/RegisterSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#CC1A1A"
+            android:backgroundTintMode="src_in"
+            android:text="Submit"
+            android:textColor="#FFFFFF"
+            android:textColorHighlight="#854C4C" />
+
+        <Button
+            android:id="@+id/RegisterBack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#CC1A1A"
+            android:text="Back To Login"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+</RelativeLayout>
