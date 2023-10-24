@@ -158,10 +158,10 @@ public class MainActivity extends AppCompatActivity {
                         startActivity(sanpham);
                         break;
 
-//                    case 2:
-//                        Intent gioithieu = new Intent(getApplicationContext(), GioiThieuActivity.class);
-//                        startActivity(gioithieu);
-//                        break;
+                    case 2:
+                        Intent gioithieu = new Intent(getApplicationContext(), GioiThieuActivity.class);
+                        startActivity(gioithieu);
+                        break;
 
                     case 3:
                         Intent dangxuat = new Intent(getApplicationContext(), DangNhapActivity.class);
