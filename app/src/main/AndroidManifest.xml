@@ -12,6 +12,24 @@
         android:theme="@style/Theme.AppBanVeMayBay"
         tools:targetApi="31">
         <activity
+            android:name=".ChangePasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UploadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProifileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HistoryShopping"
+            android:exported="false" />
+        <activity
+            android:name=".AboutCustomer"
+            android:exported="false" />
+        <activity
+            android:name=".GioHangActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
