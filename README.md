@@ -21,6 +21,9 @@ No.	       Name	                   Account	              Roles	                D
 
 
 Công nghệ được sử dụng: Java
+
+
+
 ![image](https://github.com/NguyenMinhTien-dev/AppBanVeMayBay/assets/131165423/d214e885-b74e-4abe-830d-56cbe2255a35)
 
 Dự án đã làm được những chức năng cơ bản như xem vé, đặt vé, xem giờ hàng, xem thông tin cá nhân,.... Ngoài ra, dự án cần khắc phục những vấn đề như tra cứu được ngày giờ , điểm đi và điểm đến
