@@ -13,10 +13,15 @@ Thông tin chuyến bay: Ứng dụng cung cấp thông tin chi tiết về chuy
 Quản lý đặt vé: Người dùng có thể quản lý các đặt vé hiện có, bao gồm xem, chỉnh sửa hoặc hủy bỏ đặt vé thông qua ứng dụng. Điều này mang lại sự tiện lợi và linh hoạt cho người dùng trong việc quản lý lịch trình du lịch của mình.
 
 Các thành viên trong nhóm và nhiệm vụ:
+
 No.	       Name	                   Account	              Roles	                DateStart	    Date End
+
 1	  Lê Trần Quang Tín	            QuangTin       	  Dev, Team Lead	           14/09/2023	    9/11/2023
+
 2	  Mào Minh Quang	             MinhQuang	              Dev 	               14/09/2023	    9/11/2023
+
 4	  Nguyễn Minh Tiến	            MinhTien	        Dev , Product Owner	       14/09/2023	    9/11/2023
+
 5  	Lê Đình Tú	                  DinhTu            Dev, Scrum Master	         14/09/2023	    9/11/2023
 
 
